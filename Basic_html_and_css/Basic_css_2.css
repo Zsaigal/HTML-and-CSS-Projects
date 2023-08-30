@@ -1,0 +1,9 @@
+p {
+	color: purple;
+	background: red;
+	font-weight: bold;
+	text-align: right;
+  }
+  h1 { 
+		text-shadow: 20px 20px red;
+	}
