@@ -83,6 +83,7 @@ body {
     background-color: #5EAFDF;
   }
 =======
+<<<<<<< HEAD
 /* Style for the top-level menu items when hovered */
 /* Body style */
 body {
@@ -166,5 +167,90 @@ body {
     color: #fff;
     background-color: #5EAFDF;
   }
+=======
+/* Style for the top-level menu items when hovered */
+/* Body style */
+body {
+    background: #184352;
+  }
+  
+  /* Container for wrapping content */
+  .wrap {
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+  }
+  
+  /* Menu container */
+  .menu-container {
+    top: 0;
+    left: 0;
+    position: absolute; /* Positioned to the top edge of the screen */
+    width: 100%;
+    background-color: #184352;
+  }
+  
+  /* Menu styling */
+  .menu {
+    font: bold 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Individual menu items */
+  .menu li {
+    color: #B3B3B3;
+    display: inline-block;
+    margin-right: -2px; /* Adjusted margin for proper spacing */
+    position: relative;
+    padding: 12px 40px;
+    border: 1px solid #9D9FA2;
+    border-radius: 1.5px;
+    background-color: #387593;
+    cursor: pointer;
+  }
+  
+.menu li:hover {
+    background-color: #5EAFDF;
+    color: #fff;
+  }
+  
+  /* Style for the sub-menu when a top-level menu item is hovered */
+  .menu li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    top: 43.5px;
+    left: 0;
+    width: 125.5px;
+  }
+  .submenu {
+    padding: 0;
+    left: 0;
+    position: absolute;
+    top: 43.5px;
+    width: 125.5px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  /* Style for individual items in the sub-menu */
+   .submenu li {
+    background-color: #387593;
+    display: block;
+    color: #B3B3B3;
+  }
+  
+  /* Style for individual items in the sub-menu when hovered */
+   .submenu li:hover {
+    color: #fff;
+    background-color: #5EAFDF;
+  }
+>>>>>>> 5cff83ac244e84e6be147ecc0f56bc3888b07a8b
 >>>>>>> 1651f374862d6b9a90da8741684da3b3cbee535b
   

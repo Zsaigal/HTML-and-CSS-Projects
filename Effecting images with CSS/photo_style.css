@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* Style for paragraphs */
 p {
@@ -86,4 +87,94 @@ p {
   /* When hovering over the .photo element, it scales up */
   .photo:hover img {
     transform: scale(1.1);
+=======
+
+/* Style for paragraphs */
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+  }
+  
+  /* Style for photos */
+  .photo {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: #000; /* Corrected: Changed ££0 to #000 for background color */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Style for photo container */
+  .photo-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 300px;
+    height: 169px;
+  }
+  
+  /* Style for images inside photo containers */
+  .photo-container img {
+    max-width: 100%;
+    width: 300px;
+    height: 169px;
+  }
+  
+  /* Style for photo overlay */
+  .photo-overlay {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center; /* For centering text inside .photo */
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Corrected: Changed rgba(0, 0, 0, 5) to rgba(0, 0, 0, 0.5) for background color */
+  }
+  
+  /* Style for white-head */
+  .white-head {
+    color: #C9BDAA;
+    margin-top: 5%;
+    line-height: 30px;
+    padding-bottom: 20px; /* Corrected: Added missing "x" in padding value */
+  }
+  
+/* This part sets initial styles for the photo overlay */
+.photo-overlay {
+    opacity: 0;
+    transition: opacity 0.1s;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the text inside the photo overlay */
+  .photo-overlay p {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+  }
+  
+  /* When hovering over the photo overlay, it becomes visible */
+  .photo-overlay:hover {
+    opacity: 1;
+  }
+  
+  /* This part sets up a transition effect for the photo inside the .photo element */
+  .photo img {
+    transition: transform 0.5s;
+    transform-origin: 50% 50%;
+  }
+  
+  /* When hovering over the .photo element, it scales up */
+  .photo:hover img {
+    transform: scale(1.1);
+>>>>>>> 5cff83ac244e84e6be147ecc0f56bc3888b07a8b
   }
